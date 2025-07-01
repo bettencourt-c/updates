@@ -57,6 +57,10 @@ header {
     flex: 1 1 300px; 
 }
 
+p {
+    text-align: center;
+}
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
@@ -86,7 +90,7 @@ img {
     max-width: 100%;
 }
 .double-image {
-    display: inline-block;
+    display: flex;
 
 }
 .contact-info p {

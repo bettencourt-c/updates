@@ -91,6 +91,7 @@ img {
 }
 .double-image {
     display: flex;
+    max-width: 100%;
 
 }
 .contact-info p {

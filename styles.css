@@ -61,6 +61,13 @@ p {
     text-align: center;
 }
 
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
 .contact-info {
     display: flex; 
     align-items: flex-start;
@@ -92,6 +99,7 @@ img {
 .double-image {
     display: flex;
     width: 95%;
+    margin: auto;
 }
 
 .double-image img {

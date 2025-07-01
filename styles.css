@@ -35,6 +35,10 @@ header {
     margin-right: 20px; 
 }
 
+.img {
+    display: inline-block;
+
+}
 .double-image {
     display: flex;
 }

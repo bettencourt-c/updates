@@ -92,7 +92,10 @@ img {
 .double-image {
     display: flex;
     width: 95%;
+}
 
+.double-image img {
+    width: 75%;
 }
 .contact-info p {
     color: RGB(97, 63, 77);

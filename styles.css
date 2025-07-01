@@ -1,0 +1,97 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: RGB(193,192,192);
+    color: RGB(44,45,43);
+} 
+
+header {
+    background: RGB(97, 63, 77);
+    color: RGB(236,236,236);
+    margin: auto;
+    padding: 20px;
+    max-width: 1000px; 
+    text-align: center;
+    border-radius: 8px 8px 0px 0px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+.about-container {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1000px; 
+    margin: auto;
+    background: RGB(236,236,236);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.headshot {
+    width: 300px; 
+    max-width: 100%; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.double-image {
+    display: flex;
+}
+.about-text {
+    flex: 1 1 300px; 
+}
+
+.about-text a {
+    color: RGB(97, 63, 77);
+    text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    display: flex; 
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px; 
+    margin: auto;
+    background: RGB(236,236,236);
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px; 
+}
+
+.contact-info a {
+    color: RGB(97, 63, 77);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    color: RGB(97, 63, 77);
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: RGB(236,236,236);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

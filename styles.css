@@ -77,7 +77,9 @@ header {
 .contact-info a:hover {
     text-decoration: underline;
 }
-
+.img {
+    max-height: 400px;
+}
 .double-image {
     display: inline-block;
 

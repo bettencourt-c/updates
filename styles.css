@@ -36,7 +36,9 @@ header {
 }
 
 .img {
-    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    max-width: 1000px; 
 
 }
 .double-image {

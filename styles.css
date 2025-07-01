@@ -6,6 +6,7 @@ body {
     color: RGB(44,45,43);
 } 
 
+
 header {
     background: RGB(97, 63, 77);
     color: RGB(236,236,236);
@@ -17,7 +18,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 } 
 
-.about-container {
+.cv-container {
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
@@ -25,27 +26,22 @@ header {
     margin: auto;
     background: RGB(236,236,236);
     padding: 20px;
+    border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.headshot {
-    width: 300px; 
-    max-width: 100%; 
-    height: auto; 
-    margin-right: 20px; 
+.about-text h1 {
+    color: RGB(44,45,43);
 }
 
-.img {
-    margin: auto;
-    padding: 20px;
-    max-width: 1000px; 
+.about-text h2 {
+    color: RGB(44,45,43);
+}
 
-}
-.double-image {
-    display: flex;
-}
-.about-text {
-    flex: 1 1 300px; 
+.about-text hr {
+    background-color: RGB(148,44,60); 
+    height: 2px; 
+    border: 0
 }
 
 .about-text a {
@@ -55,6 +51,10 @@ header {
 
 .about-text a:hover {
     text-decoration: underline;
+}
+.about-text {
+    color: RGB(100,102,99);
+    flex: 1 1 300px; 
 }
 
 .contact-info {
@@ -66,7 +66,7 @@ header {
     margin: auto;
     background: RGB(236,236,236);
     padding: 20px;
-    border-radius: 0px 0px 8px 8px; 
+    border-radius: 8px;
 }
 
 .contact-info a {
@@ -78,6 +78,10 @@ header {
     text-decoration: underline;
 }
 
+.double-image {
+    display: flex;
+
+}
 .contact-info p {
     color: RGB(97, 63, 77);
     margin: 0;

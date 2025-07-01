@@ -79,7 +79,7 @@ header {
 }
 
 .double-image {
-    display: flex;
+    display: inline-block;
 
 }
 .contact-info p {
